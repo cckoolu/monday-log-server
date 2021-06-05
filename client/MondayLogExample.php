@@ -13,3 +13,4 @@ $log->info('info message');
 $log->debug('debug message');
 $log->trace('trace message');
 $log->endCheckpoint('log test case');
+
