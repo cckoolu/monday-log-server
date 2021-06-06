@@ -3,7 +3,7 @@
 include_once 'MondayLog.php';
 
 $log = new MondayLog('http://localhost:8080/add_log', 'UTF-8', 'foo.com/info');
-$log->beginCheckpoint('log test case');
+$log->beginCheckpoint('log test case',"123");
 $log->variable('变量1', '值1');
 $log->input('var2', 'value2');
 $log->output('var3', 'value3');
